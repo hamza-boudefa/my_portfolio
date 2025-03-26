@@ -13,11 +13,11 @@ const Services = () => {
       <h1 className="text-6xl font-extrabold mb-8 text-[#ffffff42] relative bottom-28">What I Offer to Elevate You</h1>
 
       {/* Filter Buttons */}
-      <div className="flex  justify-center items-center  mb-12 gap-2 flex-col md:flex-row">
+      <div className="flex  justify-center items-center  mb-12 gap-9 md:gap-2 flex-col md:flex-row">
         {['Modern Websites', 'Personalized Design', 'Mobile Apps', 'Custom Solutions', 'Real-Time Features'].map((category, index) => (
           <button
             key={index}
-            className="px-6 py-2  bg-black border border-[#434155]/20  rounded-full text-sm font-medium text-white flex items-center space-x-2 hover-txt  w-full max-w-60 md:max-w-fit m-0">
+            className="px-6 py-2  bg-black border border-[#434155]/20  rounded-full text-sm font-medium text-white flex items-center space-x-2 hover-txt md:justify-normal justify-center w-full max-w-screen md:max-w-fit m-0">
             <span>✓</span>
             <span>{category}</span>
           </button>
@@ -46,7 +46,7 @@ const Services = () => {
           </div>
         ))}
       </div> */}
-      <div className="grid grid-cols-1 lg:grid-cols-2  gap-8 px-8 mx-4 md:mx-24 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2  gap-8 md:h-auto md:px-8 mx-4 md:mx-24 ">
         {[
             { title: 'Design System Expert', description: 'Create, edit, or audit your design system for a seamless, consistent user experience.', icon: system },
             { title: 'UX & UI Design', description: 'Craft intuitive, user-friendly designs that enhance user engagement and satisfaction.', icon: uiux },

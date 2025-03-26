@@ -35,7 +35,7 @@ const Tech = () => {
       hoverColor: "rgba(255, 107, 107, 0.1)", // Socket.IO red
     },
     {
-      icon: <img src={shield} alt="Authentication" className="w-12 h-12" />, // Shield icon for Authentication
+      icon: <img src="https://cdn.pixabay.com/photo/2014/04/03/00/38/shield-308943_1280.png" alt="Authentication" className="w-12 h-12" />, // Shield icon for Authentication
       title: "Authentication",
       description: "JWT and OAuth for secure user management.",
       hoverColor: "rgba(16, 185, 129, 0.1)", // Authentication green

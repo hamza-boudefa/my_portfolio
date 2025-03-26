@@ -4,7 +4,7 @@ import React from "react";
 const GetInTouchWidget = () => {
   return (
     <div
-    className="group relative w-full h-full max-h-[384px] max-w-[320px] md:max-w-full cursor-pointer overflow-hidden rounded-xl bg-black hover:shadow-2xl transition-shadow duration-300 sm:h-[800px] md:h-full lg:h-96 "
+    className="group relative w-full h-full max-h-[384px] max-w-[300px] md:max-w-full cursor-pointer overflow-hidden rounded-xl bg-black hover:shadow-2xl transition-shadow duration-300 sm:h-[800px] md:h-full lg:h-96 "
     >
       <div
         className="p-4 font-bold text-white"

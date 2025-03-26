@@ -59,7 +59,7 @@ const Header = () => {
                       className="bord flex flex-col md:flex-row md:rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-transparent dark:text-zinc-200 dark:ring-white/10"
                     >
                       <X
-                        className="relative left-[96%] md:hidden cursor-pointer"
+                        className="relative left-[95%] top-2 md:hidden cursor-pointer"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                       />
                       <li>

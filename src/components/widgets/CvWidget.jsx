@@ -7,7 +7,7 @@ const CvWidget = () => {
   const resumePDF = 'https://drive.google.com/file/d/1mLcmnqSBhTCzWvuMa5RyhmZ353X1VmLZ/view?usp=sharing';
 
   return (
-    <div className='bg-white w-fit h-fit rounded-3xl relative group'>
+    <div className=' rounded-3xl relative group   w-full h-full max-h-[384px] max-w-[320px] md:max-w-full cursor-pointer overflow-hidden  hover:shadow-2xl transition-shadow duration-300 sm:h-[800px] md:h-full lg:h-96'>
       <div
         className="relative bg-cover bg-center w-80 max-w-80 h-96 p-4 rounded-3xl shadow-lg flex flex-col justify-between overflow-hidden transition-all duration-300 hover:blur-sm"
         style={{
@@ -21,7 +21,7 @@ const CvWidget = () => {
      
       </div>
 
-      <div className='absolute top-0 p-4 rounded-2xl flex flex-col justify-between h-full overflow-hidden transition-all duration-300 hover:backdrop-blur-sm hover:bg-[#00000057]'>
+      <div className='absolute top-0 p-4 rounded-2xl flex flex-col justify-between h-full overflow-hidden transition-all duration-300 hover:backdrop-blur-sm hover:bg-[#00000057] w-full max-w-[320px]'>
         {/* Title and Description */}
         <div className="z-10 mb-4 text-white">
           <p className="text-md text-gray-300 font-extrabold">RESUME</p>
