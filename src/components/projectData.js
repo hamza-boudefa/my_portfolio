@@ -10,8 +10,74 @@ export const projectsData = [
       tags: ["LIVE"],
       date: "March 23, 2025",
       publishDate: "March 23, 2025",
-      sections: [
-        // Existing sections for Euro TV Pro...
+       sections: [
+        {
+          title: "Project Overview",
+          paragraphs: [
+            "Euro TV Pro is a premium IPTV streaming service that offers over 10,000 live channels, including more than 500 channels in various languages, 500+ sports and movie channels, as well as all channels from Albanian television companies. Additionally, the Video on Demand (VOD) feature allows users to watch countless movies and series.",
+          ],
+        },
+        {
+          title: "Cart Functionality",
+          paragraphs: [
+            "The cart system on Euro TV Pro allows users to easily manage their subscriptions and purchases. Users can add or remove subscription plans, view pricing details, and proceed to checkout seamlessly.",
+            "Key features of the cart include:",
+            "- Real-time pricing updates: The cart dynamically updates the total cost based on the selected subscription plans.",
+            "- Flexible payment options: Users can choose from multiple payment methods, including credit cards, PayPal, and other local payment gateways.",
+            "- Order summary: Before checkout, users can review their order details, including the selected plans, duration, and total cost.",
+          ],
+          images: [
+            {
+              src: "https://res.cloudinary.com/diy0sbdey/image/upload/v1742743945/porfolio/su4jswlprd2vzxgvw1bh.png", // Replace with the actual image URL
+              alt: "Cart Page",
+            },
+          ],
+         
+        },
+        {
+          title: "Admin Dashboard",
+          paragraphs: [
+            "The admin dashboard is a powerful tool for managing the Euro TV Pro platform. It provides administrators with full control over user accounts, subscriptions, orders, and content.",
+            "Key features of the admin dashboard include:",
+            "- Order management: Admins can view, filter, and manage all user orders. They can also update order statuses, issue refunds, and generate invoices.",
+            "- Subscription plan management: Admins can create, edit, or delete subscription plans. They can also change pricing, duration, and features of existing plans.",
+            "- User management: Admins have access to user profiles, where they can view subscription history, update user details, and manage account permissions.",
+            "- Analytics and reporting: The dashboard provides detailed insights into platform usage, revenue, and user engagement through interactive charts and reports.",
+            "- Content management: Admins can upload, update, or remove content such as live channels, movies, and TV shows.",
+          ],
+        //   images: [
+        //     {
+        //       src: "https://www.eurotvpro.com/images/admin-dashboard.jpg", // Replace with the actual image URL
+        //       alt: "Admin Dashboard",
+        //     },
+        //   ],
+        },
+        {
+          title: "Subscription Plans",
+          paragraphs: [
+            "Euro TV Pro offers flexible subscription plans starting from €4.99 per month. Users can choose from various packages to suit their viewing preferences.",
+          ],
+          images: [
+            {
+              src: "https://res.cloudinary.com/diy0sbdey/image/upload/v1742741914/porfolio/r8j6rucewcxgiikafcta.png", // Replace with the actual image URL
+              alt: "Subscription Plans",
+            },
+          ],
+         
+        },
+        {
+          title: "Blogs",
+          paragraphs: [
+            "“An exceptional streaming experience with a vast selection of channels and on-demand content.”",
+            "“High-quality streaming without any interruptions. Highly recommended!”",
+          ],
+          images: [
+            {
+              src: "https://res.cloudinary.com/diy0sbdey/image/upload/v1742741914/porfolio/gya7fih2gcmo4pbfonty.png",
+              alt: "blogs",
+            },
+          ],
+        },
       ],
       backLink: {
         text: "Go back",
