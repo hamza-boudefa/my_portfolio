@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes, useParams, Navigate } from "rea
 import ProjectsPage from "./components/ProjectsPage"
 import ProjectDetails from "./components/ProjectDetails"
 import { projectsData } from "./components/projectData"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 // Header and other components would be imported here
 import Header from "./components/Header";
@@ -80,6 +82,8 @@ const App = () => {
         {/* Individual Project Detail Page */}
         <Route path="/projects/:projectId" element={<ProjectDetailWrapper />} />
       </Routes>
+      <Analytics/>
+      <SpeedInsights/>
     </Router>
   )
 }
